@@ -1,7 +1,7 @@
 name: Release
 on:
   release:
-    types: [created]
+    types: [published]
 jobs:
   trigger-circleci:
     runs-on: ubuntu-latest
